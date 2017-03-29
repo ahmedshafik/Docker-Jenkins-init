@@ -1,0 +1,6 @@
+job('helloworld-dsl')
+{
+    steps {
+        shell("echo 'Hello World'")
+    }
+}
